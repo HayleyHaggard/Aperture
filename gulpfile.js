@@ -50,6 +50,7 @@ function images() {
 function scripts() {
   return src([
     'node_modules/jquery/dist/jquery.js',
+    'node_modules/jquery-parallax.js/parallax.min.js',
     'node_modules/aos/dist/aos.js',
     'docs/js/main.js'
   ])
